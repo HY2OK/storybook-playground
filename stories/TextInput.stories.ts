@@ -20,9 +20,9 @@ type Story = StoryObj<typeof meta>;
 export const Typing: Story = {
   args: {
     value: '작성중...',
-    width: 'w-[200px]',
+    width: 'w-[100px]',
     padding: 'p-10',
     border: 'border-2',
-    borderColor: 'border-red-500',
+    borderColor: 'border-blue-500',
   },
 };
